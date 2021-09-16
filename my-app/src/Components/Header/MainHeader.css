@@ -1,0 +1,20 @@
+.header .nav-link {
+    font-weight: bolder;
+}
+
+
+
+.header .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #5E6576;
+}
+
+.header .navbar-light .navbar-nav .nav-link:focus,
+.header .navbar-light .navbar-nav .nav-link:hover {
+    color: #0092FF;
+}
+
+.header>button:hover {
+    background-color: white;
+    color: blue;
+}

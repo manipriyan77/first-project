@@ -1,0 +1,81 @@
+.container_background {
+    background-color: #3B58E2;
+    color: white;
+}
+
+.iconsize {
+    width: 50px;
+    height: 50px;
+    /* color: white; */
+    background-color: #14BE9F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic_color {
+    background-color: #1D79FB;
+}
+
+.container_background .accordion-button:not(.collapsed),
+.accordion-button,
+.accordion-item {
+    color: white;
+    background-color: #3B58E2;
+    border: none;
+    box-shadow: none;
+}
+
+.container_background .accordion-body {
+    background-color: #3B58E2;
+}
+
+.container_background .accordion-button:focus {
+    border: none;
+}
+
+.container_background .accordion-button::after {
+    background-image: none;
+}
+
+
+/* MEDIA QUERRIES */
+
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 600px) {
+
+    .container_background img {
+        width: 450px;
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container_background img {
+        width: 401px;
+        height: 258px;
+    }
+}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1366px) {}
+
+@media only screen and (min-width: 1440px) {}
+
+@media only screen and (min-width: 1600px) {}
+
+@media only screen and (min-width: 1920px) {}

@@ -1,0 +1,84 @@
+.button_style {
+    border-radius: 20px;
+}
+
+.button_style:hover {
+    background-color: white;
+    color: blue;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 600px) {
+    .girl_image img {
+        width: 440px;
+        height: 480px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .girl_image img {
+        width: 401px;
+        height: 412px;
+    }
+}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 320px) {}
+
+@media only screen and (min-width: 768px) {
+
+
+    /* .girl_image {
+        width: 516px;
+        height: 530px;
+    } */
+
+    .mainpage {
+        text-align: center;
+    }
+
+    .mainpage {
+        margin-bottom: 230px;
+    }
+
+    .girl_image img {
+        width: 516px;
+        height: 530px;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+    .girl_image img {
+        width: 456px;
+        height: 468px;
+    }
+
+    .mainpage {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .girl_image img {
+        width: 500px;
+        height: 550px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 1366px) {}
+
+@media only screen and (min-width: 1440px) {}
+
+@media only screen and (min-width: 1600px) {}
+
+@media only screen and (min-width: 1920px) {}
